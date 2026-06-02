@@ -1,0 +1,21 @@
+# Environment files (contain secrets)
+.env
+.env.local
+.env.production
+.dev.vars
+
+# Node
+node_modules/
+package-lock.json
+
+# Cloudflare
+.wrangler/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+.dev.vars

@@ -1,0 +1,13 @@
+name = "8epochs-career-api"
+main = "src/worker.js"
+compatibility_date = "2024-12-01"
+
+[vars]
+SUPABASE_URL = "https://grwocvhqviuwswdqimzy.supabase.co"
+SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imdyd29jdmhxdml1d3N3ZHFpbXp5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQ5ODk1ODEsImV4cCI6MjA5MDU2NTU4MX0.7VCZtESo7V8hLsM3-dvnj2eyEP1ZR0i0vk65gB_KoU4"
+TURNSTILE_SITE_KEY = ""  # Add your Turnstile site key from Cloudflare dashboard
+
+# These are set as secrets via `wrangler secret put`:
+# SUPABASE_SERVICE_ROLE_KEY
+# ANTHROPIC_API_KEY
+# TURNSTILE_SECRET_KEY

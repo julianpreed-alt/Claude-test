@@ -1,0 +1,239 @@
+{
+  "version": "1.0.0",
+  "description": "30-item personality questionnaire covering Big Five (OCEAN) and MBTI dimensions. Items drawn from or modelled on the IPIP (International Personality Item Pool, public domain). Presented in randomised order per user.",
+  "scale": {
+    "min": 1,
+    "max": 7,
+    "labels": [
+      "Strongly Disagree",
+      "Disagree",
+      "Slightly Disagree",
+      "Neutral",
+      "Slightly Agree",
+      "Agree",
+      "Strongly Agree"
+    ]
+  },
+  "items": [
+    {
+      "id": "O1",
+      "text": "I enjoy thinking about abstract ideas and theories, even when they don't have an obvious practical use.",
+      "dimension": "openness",
+      "framework": "big5",
+      "reverse": false
+    },
+    {
+      "id": "O2",
+      "text": "I tend to notice beauty in things that other people might overlook — a well-designed object, an interesting turn of phrase, a striking visual.",
+      "dimension": "openness",
+      "framework": "big5",
+      "reverse": false
+    },
+    {
+      "id": "O3",
+      "text": "I generally prefer to stick with approaches that have worked before rather than trying unfamiliar methods.",
+      "dimension": "openness",
+      "framework": "big5",
+      "reverse": true
+    },
+    {
+      "id": "O4",
+      "text": "I often find myself lost in thought, exploring ideas just for the pleasure of it.",
+      "dimension": "openness",
+      "framework": "big5",
+      "reverse": false
+    },
+    {
+      "id": "C1",
+      "text": "I like to have a clear plan before I start a task — jumping in without one makes me uncomfortable.",
+      "dimension": "conscientiousness",
+      "framework": "big5",
+      "reverse": false
+    },
+    {
+      "id": "C2",
+      "text": "I sometimes let things slide when I should be more disciplined about following through.",
+      "dimension": "conscientiousness",
+      "framework": "big5",
+      "reverse": true
+    },
+    {
+      "id": "C3",
+      "text": "I pay close attention to details and find it hard to let small errors go uncorrected.",
+      "dimension": "conscientiousness",
+      "framework": "big5",
+      "reverse": false
+    },
+    {
+      "id": "C4",
+      "text": "I tend to do things in a methodical, step-by-step way rather than improvising as I go.",
+      "dimension": "conscientiousness",
+      "framework": "big5",
+      "reverse": false
+    },
+    {
+      "id": "E1",
+      "text": "After an intense day of meetings and social interaction, I need quiet time alone to recharge.",
+      "dimension": "extraversion",
+      "framework": "big5",
+      "reverse": true
+    },
+    {
+      "id": "E2",
+      "text": "In group settings, I naturally take on an active role — I find it easy to speak up and engage.",
+      "dimension": "extraversion",
+      "framework": "big5",
+      "reverse": false
+    },
+    {
+      "id": "E3",
+      "text": "I find being around people energising rather than draining, even after a long day.",
+      "dimension": "extraversion",
+      "framework": "big5",
+      "reverse": false
+    },
+    {
+      "id": "E4",
+      "text": "I prefer one-on-one conversations to large group discussions.",
+      "dimension": "extraversion",
+      "framework": "big5",
+      "reverse": true
+    },
+    {
+      "id": "A1",
+      "text": "I tend to trust that people generally have good intentions until shown otherwise.",
+      "dimension": "agreeableness",
+      "framework": "big5",
+      "reverse": false
+    },
+    {
+      "id": "A2",
+      "text": "In a disagreement, I'd rather be straightforwardly honest than carefully diplomatic.",
+      "dimension": "agreeableness",
+      "framework": "big5",
+      "reverse": true
+    },
+    {
+      "id": "A3",
+      "text": "It genuinely upsets me when I see someone being treated unfairly, even if it doesn't affect me personally.",
+      "dimension": "agreeableness",
+      "framework": "big5",
+      "reverse": false
+    },
+    {
+      "id": "A4",
+      "text": "I find it difficult to say no when someone asks for my help, even when I'm overloaded.",
+      "dimension": "agreeableness",
+      "framework": "big5",
+      "reverse": false
+    },
+    {
+      "id": "N1",
+      "text": "I tend to worry about things that might go wrong, even when everything seems fine.",
+      "dimension": "neuroticism",
+      "framework": "big5",
+      "reverse": false
+    },
+    {
+      "id": "N2",
+      "text": "I recover quickly from setbacks — when something goes wrong, I don't dwell on it for long.",
+      "dimension": "neuroticism",
+      "framework": "big5",
+      "reverse": true
+    },
+    {
+      "id": "N3",
+      "text": "Criticism stings more than I'd like to admit, and I sometimes replay critical feedback in my mind.",
+      "dimension": "neuroticism",
+      "framework": "big5",
+      "reverse": false
+    },
+    {
+      "id": "N4",
+      "text": "I often feel calm and steady under pressure, even when things around me are chaotic.",
+      "dimension": "neuroticism",
+      "framework": "big5",
+      "reverse": true
+    },
+    {
+      "id": "EI1",
+      "text": "I think best when I can talk things through with someone else rather than working them out on my own.",
+      "dimension": "EI",
+      "framework": "mbti",
+      "reverse": false,
+      "pole": "E"
+    },
+    {
+      "id": "EI2",
+      "text": "I tend to reflect carefully before sharing my thoughts, rather than thinking out loud.",
+      "dimension": "EI",
+      "framework": "mbti",
+      "reverse": false,
+      "pole": "I"
+    },
+    {
+      "id": "SN1",
+      "text": "I often notice patterns and connections between things that don't seem obviously related.",
+      "dimension": "SN",
+      "framework": "mbti",
+      "reverse": false,
+      "pole": "N"
+    },
+    {
+      "id": "SN2",
+      "text": "I'd rather work with concrete facts and real-world data than hypothetical possibilities.",
+      "dimension": "SN",
+      "framework": "mbti",
+      "reverse": false,
+      "pole": "S"
+    },
+    {
+      "id": "SN3",
+      "text": "When someone explains something to me, I'm more interested in the big picture and implications than the specific details.",
+      "dimension": "SN",
+      "framework": "mbti",
+      "reverse": false,
+      "pole": "N"
+    },
+    {
+      "id": "TF1",
+      "text": "When making a difficult decision, I tend to weigh the logical pros and cons more than how it will affect people's feelings.",
+      "dimension": "TF",
+      "framework": "mbti",
+      "reverse": false,
+      "pole": "T"
+    },
+    {
+      "id": "TF2",
+      "text": "When a friend is upset, my instinct is to listen and empathise rather than to offer solutions.",
+      "dimension": "TF",
+      "framework": "mbti",
+      "reverse": false,
+      "pole": "F"
+    },
+    {
+      "id": "TF3",
+      "text": "I find it more important for a decision to be fair and consistent than for everyone involved to be happy with the outcome.",
+      "dimension": "TF",
+      "framework": "mbti",
+      "reverse": false,
+      "pole": "T"
+    },
+    {
+      "id": "JP1",
+      "text": "I feel more comfortable when things are decided and settled rather than left open-ended.",
+      "dimension": "JP",
+      "framework": "mbti",
+      "reverse": false,
+      "pole": "J"
+    },
+    {
+      "id": "JP2",
+      "text": "I prefer to keep my options open as long as possible rather than committing to a plan early.",
+      "dimension": "JP",
+      "framework": "mbti",
+      "reverse": false,
+      "pole": "P"
+    }
+  ]
+}
